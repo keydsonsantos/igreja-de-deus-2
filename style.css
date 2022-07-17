@@ -190,6 +190,7 @@ main > article > p {
     height: 26px;
     border-radius: 5px;
     margin: auto;
+    margin-top: 20px;
 }
 
 .pregador a::after {
