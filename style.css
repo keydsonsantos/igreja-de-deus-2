@@ -167,6 +167,14 @@ article.bereanos {
     color: black;
 }
 
+.dow {
+    font-family: var(--fonte-padrao);
+    color: var(--cor4);
+    background-color: #001542;
+    padding: 14px;
+    height: 5px;
+}
+
 .biblia {
     background-color: #f5dfb0;
     font-family: var(--fonte-padrao);
