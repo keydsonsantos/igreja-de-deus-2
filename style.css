@@ -136,6 +136,12 @@ main > article > h1 {
     font-size: 1.4em;
 }
 
+.audio {
+    height: 40px;
+    max-width: 800px;
+    min-width: 200px;
+}
+
 main > article > p {
     font-family: var(--fonte-padrao);
     text-align: justify;
