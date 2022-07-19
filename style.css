@@ -152,6 +152,11 @@ main > article > p {
     margin-right: 20px;
 }
 
+.pregador {
+    font-family: var(--fonte-padrao);
+    font-size: 0.7em;
+}
+
 .conteudo {
     display: table;
 }
