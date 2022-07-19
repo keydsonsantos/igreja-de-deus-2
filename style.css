@@ -197,9 +197,8 @@ main > article > p {
     background-color: var(--cor4);
     font-weight: bold;
     font-size: 1em;
-    width: 190px;
+    width: 200px;
     height: 26px;
-    border-radius: 5px;
     margin: auto;
     margin-top: 20px;
 }
