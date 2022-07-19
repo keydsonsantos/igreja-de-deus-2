@@ -131,6 +131,11 @@ main {
     margin-bottom: 10px;
 }
 
+article {
+    border-bottom: 2px solid;
+    color: #001542;
+}
+
 main > article > h1 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -155,6 +160,17 @@ main > article > p {
 .top {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+article.bereanos {
+    font-family: var(--fonte-padrao);
+    color: black;
+}
+
+.biblia {
+    background-color: #f5dfb0;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
 }
 
 .pregador {
@@ -204,7 +220,8 @@ main > article > p {
     width: 200px;
     height: 26px;
     margin: auto;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    
 }
 
 .titulo-discp {
