@@ -31,9 +31,9 @@ main p {
 }
 
 main > article.reino > a {
-    font-weight: bold;
+    /*font-weight: bold;
     color: black;
-    text-decoration: none;
+    text-decoration: none;*/
     
 }
 
@@ -178,6 +178,7 @@ main > article > h1 {
 }
 
 .audio01 {
+    
     height: 40px;
 }
 
@@ -238,14 +239,17 @@ article.discp {
     margin-right: 20px;
 }
 
-.continuar-home {
-    background-color: var(--cor4);
-    font-weight: bold;
-    font-size: 1em;
-    width: 200px;
-    height: 26px;
-    margin: auto;
-    margin-bottom: 15px;
+.continuar {
+    text-decoration: none;
+    text-align: center;
+    background-color: #f5dfb0;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px rgb(179, 179, 179);
+    padding: 8px;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
     
 }
 
@@ -280,13 +284,16 @@ article.discp {
 }
 
 .continuar {
-    background-color: var(--cor4);
-    font-weight: bold;
-    font-size: 1em;
-    width: 200px;
-    height: 26px;
-    margin: auto;
-    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f5dfb0;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px rgb(179, 179, 179);
+    padding: 8px;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .pregador a::after {
