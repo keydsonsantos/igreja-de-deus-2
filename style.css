@@ -20,8 +20,9 @@ body {
     background-color: var(--cor3);
 }
 
-img {
-    margin: auto;
+picture {
+    display: flex;
+    justify-content: center;    
 }
 
 main p {
@@ -132,9 +133,9 @@ main > article > p {
     color: #001542;
 }
 
-picture.img-reino {
+.picture-reino {
     display: flex;
-    float: center;
+    justify-content: center;    
 }
 
 main > article > h1 {
