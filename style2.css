@@ -104,6 +104,7 @@ main {
     font-size: 1.2em;
     font-weight: bold;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .pregador {
@@ -115,10 +116,6 @@ main {
 .discp-img {
     display: flex;
     float: center;
-}
-
-.link-discp {
-    text-decoration: none;
 }
 
 .discp-txt {
