@@ -117,7 +117,7 @@ h1.titaula {
 }
 
 .biblia {
-    background-color: #f5dfb0;
+    background-color: #f5e6c6;
     font-family: var(--fonte-padrao);
     font-weight: bold;
 }
@@ -187,24 +187,14 @@ a.dowpdf:hover {
 }
 
 .continuar {
-    width: 40%;
+    width: 20%;
     margin: auto;
     padding-top: 20px;
     margin-bottom: 15px;
-    /*font-size: 00.9em;*/
+    font-weight: bolder;
+    font-size: 00.7em;
     text-decoration: none;
     text-align: center;
-}
-
-.linkdow {
-    font-size: 00.8em;
-    text-decoration: none;
-    text-align: center;
-    background-color: #f5dfb0;
-    border: 1.5px solid black;
-    border-radius: 5px;
-    box-shadow: 2px 2px 0px rgb(179, 179, 179);
-    padding: 8px;
 }
 
 .pregador a::after {
