@@ -108,6 +108,12 @@ p {
 h1 {
     font-family: var(--fonte-destaque);
     text-align: center;
+    padding: 15px;
+}
+
+h1.titaula {
+    color: #001542;
+    text-shadow: 2px 2px #d8c190;
 }
 
 .biblia {
@@ -161,10 +167,31 @@ a:hover {
     border-radius: 5px;
 }
 
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+a.dowpdf {
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    text-decoration: none;
+    border: 1px solid var(--cor3);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a.dowpdf:hover {
+    color: var(--cor4);
+    background-color: var(--cor5);
+    padding: 5px;
+}
+
 .continuar {
     width: 40%;
     margin: auto;
-    font-size: 00.9em;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    /*font-size: 00.9em;*/
     text-decoration: none;
     text-align: center;
 }
