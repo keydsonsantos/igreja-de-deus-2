@@ -162,7 +162,7 @@ main > article > h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: var(--fonte-destaque);
-    margin: 20px 10px;
+    margin-bottom: 30px;
     padding-left: 20px;
     font-size: 1.4em;
 }
@@ -189,7 +189,7 @@ article.discp {
 }
 
 .biblia {
-    background-color: #f5dfb0;
+    background-color: #f5e6c6;
     font-family: var(--fonte-padrao);
     font-weight: bold;
 }
