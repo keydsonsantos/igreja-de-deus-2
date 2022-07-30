@@ -172,21 +172,6 @@ a.externo::after {
     content: '\00A0\1F517';
 }
 
-a.dowpdf {
-    font-family: var(--fonte-padrao);
-    font-weight: bolder;
-    text-decoration: none;
-    border: 1px solid var(--cor3);
-    border-radius: 5px;
-    padding: 5px;
-}
-
-a.dowpdf:hover {
-    color: var(--cor4);
-    background-color: var(--cor5);
-    padding: 5px;
-}
-
 .continuar {
     width: 20%;
     margin: auto;
@@ -213,12 +198,18 @@ td {
     padding: 4px;
 }
 
+aside.site {
+    color: var(--cor4);
+    border: 2px solid var(--cor4);
+    box-shadow: 1px 2px 2px 3px var(--cor3);
+}
+
 aside {
+    background-color: var(--cor4);
     padding: 20px 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     max-width: 862px;
-    background-image: linear-gradient(to top, var(--cor1), var(--cor4));
     margin: auto;
 }
 
@@ -229,16 +220,22 @@ aside > h3 {
     color: white;
 }
 
-footer {
+h3.site-externo {
+    font-family: var(--fonte-destaque);
     text-align: center;
-    font-size: 1em;
-    padding: 5px;
-    margin-top: 5px;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor1));
+    text-shadow: 2px 2px 0px white;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
 }
 
 footer > p {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cor4);
+    font-size: 1em;
     font-weight: bold;
+    padding: 10px;
 }

@@ -51,15 +51,6 @@ main p {
     line-height: 1.6em;
 }
 
-aside a {
-    color: var(--cor4);
-    text-decoration: none;
-}
-
-aside a:hover {
-    color: var(--cor5);
-}
-
 header {
     min-height: 150px;
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
@@ -137,16 +128,6 @@ main > article > p {
     text-align: justify;
 }
 
-.article.reino {
-    border-bottom: 2px solid;
-    color: #001542;
-}
-
-.picture-reino {
-    display: flex;
-    justify-content: center;    
-}
-
 main > article > h1 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -154,16 +135,6 @@ main > article > h1 {
     margin-bottom: 30px;
     padding-left: 20px;
     font-size: 1.4em;
-}
-
-.audio {
-    height: 40px;
-    margin-left: 20px;
-}
-
-.audio01 {
-    
-    height: 40px;
 }
 
 .top {
@@ -254,50 +225,45 @@ td {
     content: '\00A0\1F517';
 }
 
+aside.site {
+    color: var(--cor4);
+    border: 2px solid var(--cor4);
+    box-shadow: 1px 2px 2px 3px var(--cor3);
+}
+
 aside {
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
-    min-width: 240px;
+    background-color: var(--cor4);
+    padding: 20px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     max-width: 862px;
     margin: auto;
-    margin-bottom: 10px;   
 }
 
-aside p {
-    font-family: var(--fonte-padrao);
-    margin: 15px 0px;
-    text-align: center;
-    text-indent: 20px;
-    line-height: 1.6em;
-}
-
-aside > article > h1 {
+aside > h3 {
     font-family: var(--fonte-destaque);
-    background-image: linear-gradient(to right, var(--cor1), var(--cor4));
-    color: var(--cor5);
-    font-size: 1.1em;
-    font-weight: bold;
-    text-shadow: 2px solid black;
-    border-radius: 5px;
-    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
 }
 
-aside picture {
-    margin-top: 20px;
+h3.site-externo {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px #FFB30D;
+    padding-bottom: 20px;
 }
 
 footer {
-    text-align: center;
-    font-size: 1em;
-    padding: 5px;
-    margin-top: 5px;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor1));
+    background-color: #001542;
 }
 
 footer > p {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cor4);
+    font-size: 1em;
     font-weight: bold;
+    padding: 10px;
 }
