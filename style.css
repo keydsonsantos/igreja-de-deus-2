@@ -40,26 +40,15 @@ a:hover {
     transition-duration: 0.5s;
 }
 
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
 main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 20px;
     line-height: 1.6em;
-}
-
-a.reino {
-    font-family: var(--fonte-padrao);
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-a.reino:hover {
-    color: var(--cor4);
-    background-color: #7A7A7A;
-}
-
-.reino a::after {
-    content: '\00A0\1F517';
 }
 
 aside a {
